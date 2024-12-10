@@ -66,12 +66,19 @@
     font-style: bold;
 }
 button {
-    padding: 10px 15px;
-    background-color: #3f51b5;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #c32b2b;
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    text-align: center; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+button:hover {
+    background-color: #d80f0f; 
 }
 
 /* content styling */
