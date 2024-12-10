@@ -186,7 +186,6 @@
     width: auto; 
 }
 
-/* Styling for images in the list */
 .list-image {
     max-width: 375px; 
     height: auto;
@@ -195,12 +194,11 @@
     border-radius: 4px;
 }
 
-/* Text section of list items */
 .list-item span {
     font-size: 1em;
     line-height: 1.6;
 }
-/* Container for cropping the image */
+
 .image-crop-container {
     width: 375px; 
     height: auto; 
@@ -209,7 +207,6 @@
     display: inline-block; 
 }
 
-/* Image within the crop container */
 .cropped-image {
     object-fit: cover; 
     object-position: -28px 0px; 
@@ -217,7 +214,7 @@
     height: 100%; 
 }
 
-/* For tablets and smaller devices (max-width 768px) */
+/* For tablets and smaller devices */
 @media (max-width: 768px) {
     .header h1 {
         font-size: 1.5em; 
