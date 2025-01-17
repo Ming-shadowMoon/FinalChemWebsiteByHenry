@@ -130,3 +130,36 @@ button:hover {
     text-decoration: underline;
     color: rgb(192, 15, 192);
 }
+/* Reference List Styling */
+.references-list {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #333;
+    margin-top: 20px;
+}
+
+.references-list li {
+    margin-bottom: 15px;
+}
+
+.references-list strong {
+    font-weight: bold;
+}
+
+.references-list em {
+    font-style: italic;
+}
+
+/* Back to top button */
+#top {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #3f51b5;
+    text-decoration: none;
+}
+
+#top:hover {
+    text-decoration: underline;
+}
